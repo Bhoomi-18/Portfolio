@@ -1,0 +1,261 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    border: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+}
+
+.index{
+    height: 10vh;
+    background-color: #040F16;
+    display: flex;
+    position: sticky;
+    top: 0px;
+}
+.logo{
+    width: 30vw;
+    background-image: url(PIC.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.list{
+    width: 70vw;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.option{
+    font-size: 1.6rem;
+}
+a{
+    text-decoration: none;
+}
+
+.intro{
+    height: 90vh;
+    background-color: #000022;
+    display: flex;
+    align-items: center; 
+    justify-content: space-evenly; 
+}
+.text{
+    font-size: 2rem;
+    margin: 10rem;
+}
+.text p{
+    color: #0094C6;
+}
+.pic{
+    height: 40vmin;
+    width: 40vmin;
+    border-radius: 50%;
+    border: 1px solid white;
+    background-image: url('photo.jpeg');
+    background-size: contain;
+}
+#resume{
+    height: 5vmin;
+    width: 17vmin;
+    background-color: #0094C6;
+    border-radius: 1rem;
+    font-size: 1.3rem;
+    cursor: pointer;
+}
+#resume:active{
+    background-color: #000022;
+}
+.social{
+    height: 8vmin;
+    width:18vmin;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+
+main{
+    background-color: #001242;
+}
+main h1{
+    font-size: 3rem;
+    -webkit-text-stroke-color: #000022;
+    -webkit-text-stroke-width: 2px;
+    margin-left: 30vmin;
+    margin-bottom: 2rem;
+    margin-top: 3rem;
+}
+
+
+#about{
+    padding: 1rem;
+    border-radius: 30px;
+    margin-left: 2rem;
+    margin-right: 2rem;
+}
+#about:hover{
+    transform: scale(1.05);
+    transition: transform 0.5s ease-in-out 0s;
+    background-color: #005E7C;
+}
+.about-box{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.about-pic{
+    height: 25vmin;
+    width: 25vmin;
+    border: 1px solid white;
+    border-radius: 50%;
+    margin: 2rem;
+    background-image: url(about.jpg);
+    background-size: contain;
+}
+.about-text{
+    width: 80vmin;
+    font-size: 1.5rem;
+}
+
+
+#skills{
+    padding: 1rem;
+    height: 50vmin;
+    margin-left: 2rem;
+    margin-right: 2rem;
+    border-radius: 30px;
+}
+#skills:hover{
+    transform: scale(1.05);
+    transition: transform 0.5s ease-in-out 0s;
+    background-color: #005E7C;
+}
+.skills-box{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+.s-text{
+    height: 20vmin;
+    width: 20vmin;
+    border: 1px solid white;
+    border-radius: 50%;
+    text-align: center;
+}
+.s-logo{
+    margin: 2rem;
+    font-size: 4rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.label{
+    font-size: 1.5rem;
+}
+
+
+.project-box{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.works{
+    height: 24vmin;
+    width: 50vmin;
+    margin: 3rem;
+    display: flex;
+    align-items: flex-end;
+}
+.works:hover{
+    border: 1px solid white;
+}
+.work-link{
+    background-color: rgba(71, 66, 52, 0.701);
+    width: 100vmin;
+}
+.part1{
+    background-image: url('calc.jpeg');
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.part2{
+    background-image: url('tourtrip.jpeg');
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+#projects{
+    padding: 1rem;
+    border-radius: 30px;
+    margin-left: 2rem;
+    margin-right: 2rem;
+}
+#projects:hover{
+    transform: scale(1.05);
+    transition: transform 0.5s ease-in-out 0s;
+    background-color: #005E7C;
+}
+
+
+.contact-form{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+#your-name{
+    height: 5vmin;
+    width: 50vmin;
+    margin-bottom: 2rem;
+    background-color: #000022;
+    font-size: 1.5rem;
+    margin-right: 1.5rem;
+}
+#email{
+    height: 5vmin;
+    width: 50vmin;
+    margin-bottom: 2rem;
+    background-color: #000022;
+    font-size: 1.5rem;
+}
+#message{
+    height: 20vmin;
+    width: 100vmin;
+    margin-bottom: 2rem;
+    background-color: #000022;
+    font-size: 1.5rem;
+}
+#submit{
+    height: 3rem;
+    width: 10rem;
+    background-color: #0094C6;
+    border-radius: 1rem;
+    margin-bottom: 2rem;
+    font-size: 1.5rem;
+    box-shadow: 1px 1px white;
+}
+#submit:active{
+    background-color: #000022;
+}
+#contact{
+    padding: 1rem;
+    border-radius: 30px;
+    margin-left: 2rem;
+    margin-right: 2rem;
+}
+#contact:hover{
+    transform: scale(1.05);
+    transition: transform 0.5s ease-in-out 0s;
+    background-color: #005E7C;
+}
+
+
+.copyright{
+    height: 5vh;
+    background-color: #040F16;
+    text-align: center;
+    padding-top: 1.5rem;
+}
+/* 0094C6
+005E7C
+000932
+040F16 */
