@@ -1,17 +1,18 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
+ <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="Stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <title>Portfolio</title>
 </head>
 <body>
     <header>
-        <div class="index">
-            <div class="logo"></div>
-            <div class="list">
+        <div class="index d-flex position-sticky top-0">
+            <div class="logo "></div>
+            <div class="list d-flex align-items-center justify-content-evenly w-100">
                 <div class="option"><a href="#about">About</a></div>
                 <div class="option"><a href="#skills">Skills</a></div>
                 <div class="option"><a href="#projects">Projects</a></div>
@@ -19,12 +20,12 @@
             </div>
         </div>
     </header>
-    <div class="intro">
+    <div class="intro d-flex align-items-center justify-content-evenly">
         <div class="text">
             <p>Hii! My name is</p>
             <h1>Bhoomi Agarwal</h1>
             <h3>HTML, CSS Developer</h3>
-            <div class="social">
+            <div class="social d-flex align-items-center justify-content-evenly">
                 <a href="https://www.linkedin.com/in/bhoomi-agarwal-58728a1ba/"><i class="fa-brands fa-linkedin"></i></a>
                 <a href="https://github.com/Bhoomi-18"><i class="fa-brands fa-github"></i></a>
                 <a href="https://mail.google.com/mail/#inbox?compose=CllgCJTNqrXrJtmRBvgQZSppRpjWgkMNhzcMCJZKMVqknKTLztgdlfnPtHPvNCmGGmcrhswHTdq"><i class="fa-solid fa-envelope"></i></a>
@@ -37,7 +38,7 @@
     <main>
         <div id="about">
             <h1>About</h1>
-            <div class="about-box">
+            <div class="about-box d-flex align-items-center justify-content-evenly">
                 <div class="about-pic"></div>
                 <div class="about-text">
                     <p>Hii, I am Bhoomi, a budding frontend developer and a keen learner of web technologies.</p>
@@ -48,7 +49,7 @@
 
         <div id="skills">
             <h1>Skills</h1>
-            <div class="skills-box">
+            <div class="skills-box d-flex align-items-center justify-content-evenly">
                 <div class="s-text">
                     <div class="s-logo"><i class="fa-brands fa-square-js"></i></div><br>
                     <div class="label">JavaScript</div>    
@@ -74,24 +75,39 @@
 
         <div id="projects">
             <h1>My Works</h1>
-            <div class="project-box">
-                <div class="works part1">
-                    <div class="work-link"><a href="https://github.com/Bhoomi-18?tab=repositories">See Project</a></div>
+            <div class="project-box d-flex align-items-center justify-content-evenly">
+                <div class="box">
+                    <div class="works part1">
+                        <div class="work-link"><a href="https://github.com/Bhoomi-18/Calculator">See Project</a></div>
+                    </div>
                 </div>
-                <div class="works part2">
-                    <div class="work-link"><a href="https://github.com/Bhoomi-18?tab=repositories">See Project</a></div>
+                <div class="box">
+                    <div class="works part2">
+                        <div class="work-link"><a href="https://github.com/Bhoomi-18/Landing_Page">See Project</a></div>
+                    </div>
                 </div>
+                <div class="box">
+                    <div class="works part3">
+                        <div class="work-link"><a href="https://github.com/Bhoomi-18/JS_Games/tree/main/tic%20tac%20toe">See Project</a></div>
+                    </div>
+                </div>
+                <div class="box">
+                    <div class="works part4">
+                        <div class="work-link"><a href="https://github.com/Bhoomi-18/Amazon_clone">See Project</a></div>
+                    </div>
+                </div>
+                
             </div>
         </div>
 
         <div id="contact">
             <h1>Connect with Me</h1>
-            <div class="contact-form">
+            <div class="contact-form d-flex align-items-center justify-content-evenly">
                 <form>
-                    <input id="your-name" type="text" placeholder="Enter Your Name">
-                    <input id="email" type="email" placeholder="Enter Email Id">
+                    <input id="your-name" required type="text" placeholder="Enter Your Name">
+                    <input id="email" required type="email" placeholder="Enter Email Id">
                     <br>
-                    <input id="message" type="text" placeholder="Your Message">
+                    <input id="message" required type="text" placeholder="Your Message">
                     <br>
                     <button id="submit">Submit</button>
                 </form>
@@ -100,7 +116,7 @@
 
     </main>
     
-    <footer>
+    <footer class="text-centre">
         <div class="copyright">© Copyright belongs to the owner Bhoomi Agarwal</div>
     </footer>
 </body>

@@ -8,10 +8,7 @@
 
 .index{
     height: 10vh;
-    background-color: #040F16;
-    display: flex;
-    position: sticky;
-    top: 0px;
+    background-color: #040F16; 
 }
 .logo{
     width: 30vw;
@@ -21,9 +18,6 @@
 }
 .list{
     width: 70vw;
-    display: flex;
-    align-items: center;
-    justify-content: space-evenly;
 }
 .option{
     font-size: 1.6rem;
@@ -34,10 +28,7 @@ a{
 
 .intro{
     height: 90vh;
-    background-color: #000022;
-    display: flex;
-    align-items: center; 
-    justify-content: space-evenly; 
+    background-color: #000022; 
 }
 .text{
     font-size: 2rem;
@@ -68,9 +59,6 @@ a{
 .social{
     height: 8vmin;
     width:18vmin;
-    display: flex;
-    justify-content: space-evenly;
-    align-items: center;
 }
 
 
@@ -97,11 +85,6 @@ main h1{
     transform: scale(1.05);
     transition: transform 0.5s ease-in-out 0s;
     background-color: #005E7C;
-}
-.about-box{
-    display: flex;
-    align-items: center;
-    justify-content: space-evenly;
 }
 .about-pic{
     height: 25vmin;
@@ -131,9 +114,6 @@ main h1{
     background-color: #005E7C;
 }
 .skills-box{
-    display: flex;
-    align-items: center;
-    justify-content: space-evenly;
     flex-wrap: wrap;
 }
 .s-text{
@@ -155,10 +135,19 @@ main h1{
 }
 
 
-.project-box{
+#projects{
+    padding: 1rem;
+    border-radius: 30px;
+    margin-left: 2rem;
+    margin-right: 2rem;
     display: flex;
-    align-items: center;
-    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+.box {
+    height: 24vmin;
+    width: 30%;
+    padding: 20px 0px 15px;
+    margin-top: 15px;
 }
 .works{
     height: 24vmin;
@@ -166,6 +155,8 @@ main h1{
     margin: 3rem;
     display: flex;
     align-items: flex-end;
+    background-size: contain;
+    background-repeat: no-repeat;
 }
 .works:hover{
     border: 1px solid white;
@@ -176,19 +167,15 @@ main h1{
 }
 .part1{
     background-image: url('calc.jpeg');
-    background-size: contain;
-    background-repeat: no-repeat;
 }
 .part2{
     background-image: url('tourtrip.jpeg');
-    background-size: contain;
-    background-repeat: no-repeat;
 }
-#projects{
-    padding: 1rem;
-    border-radius: 30px;
-    margin-left: 2rem;
-    margin-right: 2rem;
+.part3{
+    background-image: url('tic-tac.png');
+}
+.part4{
+    background-image: url('amazon.png');
 }
 #projects:hover{
     transform: scale(1.05);
@@ -197,11 +184,7 @@ main h1{
 }
 
 
-.contact-form{
-    display: flex;
-    align-items: center;
-    justify-content: space-evenly;
-}
+
 #your-name{
     height: 5vmin;
     width: 50vmin;
@@ -250,12 +233,12 @@ main h1{
 
 
 .copyright{
-    height: 5vh;
+    height: 10vh;
     background-color: #040F16;
-    text-align: center;
     padding-top: 1.5rem;
+    text-align: center;
 }
 /* 0094C6
 005E7C
 000932
-040F16 */
+040F16 */ 
