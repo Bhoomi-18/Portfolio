@@ -4,11 +4,14 @@
     border: border-box;
     font-family: Arial, Helvetica, sans-serif;
     color: white;
-}
+} 
 
 .index{
     height: 10vh;
-    background-color: #040F16; 
+    background-color: #040F16;
+    position: sticky;
+    position: fixed;
+    top: 0px;
 }
 .logo{
     width: 30vw;
@@ -22,13 +25,13 @@
 .option{
     font-size: 1.6rem;
 }
-a{
-    text-decoration: none;
-}
 
 .intro{
     height: 90vh;
-    background-color: #000022; 
+    background-color: #000022;
+    display: flex;
+    align-items: center; 
+    justify-content: space-evenly; 
 }
 .text{
     font-size: 2rem;
@@ -59,6 +62,9 @@ a{
 .social{
     height: 8vmin;
     width:18vmin;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
 }
 
 
@@ -81,10 +87,15 @@ main h1{
     margin-left: 2rem;
     margin-right: 2rem;
 }
-#about:hover{
+/* #about:hover{
     transform: scale(1.05);
     transition: transform 0.5s ease-in-out 0s;
     background-color: #005E7C;
+} */
+.about-box{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
 }
 .about-pic{
     height: 25vmin;
@@ -108,12 +119,10 @@ main h1{
     margin-right: 2rem;
     border-radius: 30px;
 }
-#skills:hover{
-    transform: scale(1.05);
-    transition: transform 0.5s ease-in-out 0s;
-    background-color: #005E7C;
-}
 .skills-box{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
     flex-wrap: wrap;
 }
 .s-text{
@@ -135,19 +144,11 @@ main h1{
 }
 
 
-#projects{
-    padding: 1rem;
-    border-radius: 30px;
-    margin-left: 2rem;
-    margin-right: 2rem;
+.project-box{
     display: flex;
+    align-items: center;
+    justify-content: space-evenly;
     flex-wrap: wrap;
-}
-.box {
-    height: 24vmin;
-    width: 30%;
-    padding: 20px 0px 15px;
-    margin-top: 15px;
 }
 .works{
     height: 24vmin;
@@ -155,8 +156,6 @@ main h1{
     margin: 3rem;
     display: flex;
     align-items: flex-end;
-    background-size: contain;
-    background-repeat: no-repeat;
 }
 .works:hover{
     border: 1px solid white;
@@ -167,24 +166,37 @@ main h1{
 }
 .part1{
     background-image: url('calc.jpeg');
+    background-size: contain;
+    background-repeat: no-repeat;
 }
 .part2{
     background-image: url('tourtrip.jpeg');
+    background-size: contain;
+    background-repeat: no-repeat;
 }
 .part3{
-    background-image: url('tic-tac.png');
+    background-image: url('amazon.png');
+    background-size: contain;
+    background-repeat: no-repeat;
 }
 .part4{
-    background-image: url('amazon.png');
+    background-image: url('tic-tac.png');
+    background-size: contain;
+    background-repeat: no-repeat;
 }
-#projects:hover{
-    transform: scale(1.05);
-    transition: transform 0.5s ease-in-out 0s;
-    background-color: #005E7C;
+#projects{
+    padding: 1rem;
+    border-radius: 30px;
+    margin-left: 2rem;
+    margin-right: 2rem;
 }
 
 
-
+.contact-form{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
 #your-name{
     height: 5vmin;
     width: 50vmin;
@@ -225,20 +237,15 @@ main h1{
     margin-left: 2rem;
     margin-right: 2rem;
 }
-#contact:hover{
-    transform: scale(1.05);
-    transition: transform 0.5s ease-in-out 0s;
-    background-color: #005E7C;
-}
 
 
 .copyright{
-    height: 10vh;
+    height: 9vh;
     background-color: #040F16;
-    padding-top: 1.5rem;
     text-align: center;
+    padding-top: 1.5rem;
 }
 /* 0094C6
 005E7C
 000932
-040F16 */ 
+040F16 */
